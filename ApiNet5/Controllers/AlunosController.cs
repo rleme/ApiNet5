@@ -27,7 +27,7 @@ namespace ApiNet5.Controllers
             return await _context.Alunos.ToListAsync();
         }
 
-        // GET: api/Alunoes/5
+        // GET: api/Alunoe3s/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Aluno>> GetAluno(int id)
         {
